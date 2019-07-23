@@ -1,5 +1,3 @@
-## Notebooks
+## Data
 
-# Notebooks
-
-Folders for notebooks resources
+Folders for data files
