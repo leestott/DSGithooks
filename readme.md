@@ -10,7 +10,8 @@ The pre-commit script is executed every time one runs git commit before Git asks
 
 For every .ipynb file staged to be committed, pre-commit generates corresponding .py and .html files in the scripts and html directories respectively.
 
-.py files makes code reviews easier, since the .r files only contain code (excludes markdown comments and json associated with jupyter notebooks)
+.py files makes code reviews easier, since the .py files only contain code (excludes markdown comments and json associated with jupyter notebooks)
+
 .html files make sharing notebooks easier, since one can open .html files in a browser, rather than having to start the jupyter server to view the latest content in a notebook
 
 ### Configuring Git Hooks
